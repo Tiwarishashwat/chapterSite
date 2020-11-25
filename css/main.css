@@ -1,0 +1,16 @@
+.gallery .images img{
+  width: 350px !important;
+  height:350px !important;
+  border-radius:8px;
+}
+
+.gallery .images img{
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.gallery .images img:hover{
+  cursor:pointer;
+    width: 380px;
+  height: 380px;
+  transform: rotate(360deg);
+}
